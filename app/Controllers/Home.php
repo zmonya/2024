@@ -60,7 +60,7 @@ class Home extends BaseController
         return 
             view('Temple/Head', $data).
             view('Temple/Nav_01').
-
+            
             view('Temple/End')
             ;
     }
